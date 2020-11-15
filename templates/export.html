@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}Export page{% endblock %}
+
+{% block body %}
+
+    <section class="code-block">
+        <h1>JSON:</h1>
+        <p class="code-blocki-item"> {{ json_file_read }} </p>
+        <h1>CSV:</h1>
+        <p class="code-blocki-item"> {{ csv_file_read }} </p>
+        <h1>XML:</h1>
+        <p class="code-blocki-item"> {{ xml_file_read }} </p>
+    </section>
+
+{% endblock %}

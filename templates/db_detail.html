@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block title %}User {{ users_details.id }} page{% endblock %}
+
+{% block body %}
+    <section class="user-info">
+        <div class="user-info-div">
+            <img src="{{ url_for('static', filename='img/avatar.svg')}}" height="210" alt="svg-img">
+
+            <ul class="user-info-list">
+                <li class="user-info-name">{{ users_details.name }}</li>
+                <li class="user-info-surname">{{ users_details.surname }}</li>
+                <li class="user-info-detail-mail">{{ users_details.mail }}</li>
+                <li class="user-info-detail-number">{{ users_details.ph_number }}</li>
+                <li class="user-info-detail-password">{{ users_details.password }}</li>
+                <li class="user-info-detail-id">{{ users_details.id }}</li>
+                <li class="user-info-detail-date">{{ users_details.date }}</li>
+            </ul>
+        </div>
+
+        <a class="reg-link" href="/db/id={{ users_details.id }}/del">Удалить запись</a>
+
+    </section>
+{% endblock %}

@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}Main page{% endblock %}
+
+{% block body %}
+    <section class=home-block>
+		<ul class="home-block-buttons">
+			<li><a class="reg-link" href="db">База данных</a></li>
+			<li><a class="reg-link" href="register_page">Регистрация</a></li>
+			<li><a class="reg-link" href="fibonacci">Фибоначчи</a></li>
+		</ul>
+		<img src="{{ url_for('static', filename='img/logo.svg')}}" height="150" alt="svg-img">
+	</section>
+{% endblock %}

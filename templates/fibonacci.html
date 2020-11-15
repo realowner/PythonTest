@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}Base page{% endblock %}
+
+{% block body %}
+    <section class="fibonacci">
+        <h1 class="fibonacci-title">Введите номер элемента:</h1>
+
+        <form method="post" class="user-login-form">
+            <input type="text" name="fibonacci-num" id="fibonacci-num">
+            <button class="btn-type-1" type="submit">Отправить</button>
+        </form>
+
+        <h1>Результат: {{ number }}</h1>
+
+    </section>
+{% endblock %}

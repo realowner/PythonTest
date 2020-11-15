@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}Fibonacci page{% endblock %}
+
+{% block body %}
+    <main class=container>
+		<form method="post" class="user-login-form">
+                    <input type="text" name="user-name" id="user-name" placeholder="Имя">
+                    <input type="text" name="user-surname" id="user-surname" placeholder="Фамилия">
+                    <input type="text" name="user-mail" id="user-mail" placeholder="Почта">
+                    <input type="password" name="user-pass" id="user-pass" placeholder="Пароль">
+                    <input type="text" name="user-ph" id="user-ph" placeholder="Номер телефона">
+                <button class="btn-type-1" type="submit">Регистрация</button>
+        </form>
+	</main>
+{% endblock %}

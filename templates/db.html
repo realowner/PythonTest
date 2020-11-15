@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block title %}Base page{% endblock %}
+
+{% block body %}
+    <section class="data-base">
+        <h1 class="data-base-title">Записи в базе данных:</h1>
+
+        <a href="/db/export" class="reg-link">Export</a>
+
+        <section class="data-base-table">
+            <table class="data-base-table-prices">
+                {% for el in users %}
+				<tr>
+					<td class="user-id">{{ el.id }}</td>
+					<td>{{ el.name }} {{ el.surname }}</td>
+                    <td><a href="/db/id={{ el.id }}" class="table-link">Подробнее</a></td>
+				</tr>
+                {% endfor %}
+			</table>
+        </section>
+
+    </section>
+{% endblock %}

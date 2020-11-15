@@ -1,0 +1,177 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Roboto", Arial, sans-serif;
+	font-size: 24px;
+	line-height: 30px;
+	color: #fff;
+	background-color: #C0C0C0;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+.main-header {
+	margin-bottom: 50px;
+	padding: 10px 50px;
+	background-color: #808080;
+	box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.main-header-text {
+	display: flex;
+	justify-content: space-between;
+}
+
+.main-header-link {
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.main-header-link:hover,
+.main-header-link:focus {
+	color: #C0C0C0;
+}
+
+.main-container {
+
+}
+
+.user-login {
+
+}
+
+.user-login-form input[type="text"],
+.user-login-form input[type="password"] {
+	display: block;
+	margin: 10px auto;
+	width: 300px;
+	border-radius: 10px;
+	border-color: #808080;
+
+	font-size: 24px;
+	line-height: 30px;
+}
+
+.btn-type-1 {
+	display: block;
+	margin: 0 auto 10px auto;
+	padding: 5px;
+	width: 210px;
+	border-radius: 15px;
+	border: none;
+	background-color: #fff;
+
+	font-size: 24px;
+	line-height: 30px;
+	color: #808080;
+}
+
+.btn-type-1:hover,
+.btn-type-1:focus {
+	color: #fff;
+	background-color: #808080;
+	box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.reg-link {
+	display: block;
+	margin: 0 auto 10px auto;
+	padding: 5px;
+	width: 200px;
+	border-radius: 15px;
+	background-color: #fff;
+
+	text-align: center;
+	text-decoration: none;
+	font-size: 24px;
+	line-height: 30px;
+	color: #808080;
+}
+
+.reg-link:hover,
+.reg-link:focus {
+	color: #fff;
+	background-color: #808080;
+	box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.home-block {
+	display: flex;
+	justify-content: center;
+}
+
+.home-block-buttons {
+	margin: 0 30px 0 0;
+	padding: 0;
+	list-style: none;
+}
+
+.data-base {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.data-base-title {
+
+}
+
+.data-base-table {
+
+}
+
+.data-base-table-prices {
+	border-collapse: collapse;
+	color: #fff;
+	text-align: center;
+	border: 2px solid #000;
+	background-color: #C0C0C0;
+
+}
+
+.data-base-table-prices tr,
+.data-base-table-prices td {
+	border: 2px solid #000;
+}
+
+.table-link{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.table-link:hover,
+.table-link:focus {
+	color: #808080;
+}
+
+.user-info-div {
+	display: flex;
+	justify-content: center;
+}
+
+.user-info-list {
+	margin: 0;
+	margin-left: 30px; 
+	padding: 0;
+	list-style: none;
+}
+
+.code-block {
+	width: 95%;
+	margin: 0 auto;
+
+	font-size: 16px;
+	line-height: 24px;
+	color: #000;
+}
+
+.fibonacci {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}

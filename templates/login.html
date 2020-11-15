@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}Register page{% endblock %}
+
+{% block body %}
+<section class="user-login">
+	<form method="post" class="user-login-form">
+		<input type="text" name="user-mail" id="user-mail" placeholder="Почта">
+        <input type="password" name="user-pass" id="user-pass" placeholder="Пароль">
+        <button class="btn-type-1" type="submit">Вход</button>
+		<a href="/register_page" class="reg-link">Регистрация</a>     
+    </form>
+</section>
+{% endblock %}
